@@ -11,24 +11,25 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
     <header class="header">
         <div class="container">
-        <nav class="header-nav">
-            <a href=""class="logo link"><span class="logo-web">Web</span>Studio</a>
-            <ul class="header-list list">
-                <li class="header-item"> <a href=""class="header-link-st link">Студія</a></li>
-                <li class="header-item"> <a href="./portfolio.html"class="header-link link">Портфоліо</a></li>
-                <li class="header-item"> <a href=""class="header-link link">Контакти</a></li>
+        <nav class="navigation">
+            <a href=""class="logo link"><span class="logo__web">Web</span>Studio</a>
+            <ul class="navigation__list list">
+                <li class="navigation__item"> <a href=""class="navigation__link__st link">Студія</a></li>
+                <li class="navigation__item"> <a href="./portfolio.html"class="navigation__link link">Портфоліо</a></li>
+                <li class="navigation__item"> <a href=""class="navigation__link link">Контакти</a></li>
             </ul>
-           <ul class="header-address list">
-            <li class="header-item">
-                <a href= "info@devstudio.com" class="header-mail link"><svg class="caption-address-icon" width="16" height="12">
+           <ul class="navigation__address list">
+            <li class="navigation__item">
+                <a href= "info@devstudio.com" class="navigation__mail link"><svg class="navigation__icon" width="16" height="12">
                     <use href="./images/icons.svg#icon-envelope"></use>
                 </svg>info@devstudio.com</a></li>
-            <li class="header-item">
-                <a href="tel:+380961111111" class="header-tel link"><svg class="caption-address-icon" width="10" height="16">
+            <li class="navigation__item">
+                <a href="tel:+380961111111" class="navigation__tel link"><svg class="navigation__icon" width="10" height="16">
                     <use href="./images/icons.svg#icon-smartphone"></use>
                 </svg>+38 096 111 11 11</a> </li>
            </ul>
@@ -38,48 +39,48 @@
     <main>
         <section class="title">
         <div class="container">
-            <h1 class="section-title">Эфективні рішення для вашего бизнесу</h1>
-            <button type="button" class="section-btn"data-modal-open>Замовити послугу</button>
+            <h1 class="title__header title-header ">Эфективні рішення для вашего бизнесу</h1>
+            <button type="button" class="title__btn title-btn"data-modal-open>Замовити послугу</button>
         </div>
         </section>
-        <section class="after-hero">
+        <section class="skills">
             <div class="container">
-        <ul class="section-after-hero list">
-            <li class="section-sub-text">
-                <div class="icon-section-sub">
-                    <svg class="caption-address-icon" width="70" height="70">
+        <ul class="skills__list list">
+            <li class="skills__text">
+                <div class="skills__sub icon-section-sub">
+                    <svg  width="70" height="70">
                         <use href="./images/icons.svg#icon-antenna-1"></use>
                     </svg>
                 </div>
-                <h3 class="section-subtitle"> Увага до деталей</h3>
-                <p class="section-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                <h3 class="skills__subtitle"> Увага до деталей</h3>
+                <p class="skills__texts">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
             </li>
-            <li class="section-sub-text">
-                <div class="icon-section-sub">
-                    <svg class="caption-address-icon" width="70" height="70">
+            <li class="skills__text">
+                <div class="skills__sub icon-section-sub">
+                    <svg  width="70" height="70">
                         <use href="./images/icons.svg#icon-clock-1"></use>
                     </svg>
                 </div>
-                <h3 class="section-subtitle">Пунктуальність</h3>
-                <p class="section-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                <h3 class="skills__subtitle">Пунктуальність</h3>
+                <p class="skills__texts">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
             </li>
-            <li class="section-sub-text">
-                <div class="icon-section-sub">
-                    <svg class="caption-address-icon" width="70" height="70">
+            <li class="skills__text">
+                <div class="skills__sub icon-section-sub">
+                    <svg width="70" height="70">
                         <use href="./images/icons.svg#icon-diagram-1-1"></use>
                     </svg>
                 </div>
-                <h3 class="section-subtitle">Планування</h3>
-                <p class="section-text">Так само консультація з широким активом значною мірою зумовлює.</p>
+                <h3 class="skills__subtitle">Планування</h3>
+                <p class="skills__texts">Так само консультація з широким активом значною мірою зумовлює.</p>
             </li>
-            <li class="section-sub-text">
-                <div class="icon-section-sub">
-                    <svg class="caption-address-icon" width="70" height="70">
+            <li class="skills__text">
+                <div class="skills__sub icon-section-sub">
+                    <svg width="70" height="70">
                         <use href="./images/icons.svg#icon-astronaut-1-1"></use>
                     </svg>
                 </div>
-                <h3 class="section-subtitle">Сучасні технології</h3>
-                <p class="section-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                <h3 class="skills__subtitle">Сучасні технології</h3>
+                <p class="skills__texts">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
             </li>
         </ul>
         </div>
